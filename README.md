@@ -1,6 +1,6 @@
 # An Encoder-Decoder Approach for Packing Circles
 
-> :warning: **It could take a while to load all 11 .gif files in this readme**
+> :warning: **It may take a few minutes to load all 11 .gif files in this readme. In this anonymized version, the formatting may be slightly disoriented.**
 
 A ```.gif``` file as below was made by saving the centres returned by the encoder every 200 epochs till we obtain a satisfactory packing layout. The total number of epochs 
 of training goes more than 20,000.
