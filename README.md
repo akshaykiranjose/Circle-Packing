@@ -16,7 +16,7 @@ Here is one failed attempt to pack 14 circles for the same values of ```r``` and
 
 Towards the end of training, the circles exhibit minor movement if and only if they don't have significant overlap with another circle.
 
-<img src="https://github.com/akshaykiranjose/Circle-Packing/blob/master/figures/13_0_run_long.gif" width="400" height="400" /> <img src="https://github.com/akshaykiranjose/Circle-Packing/blob/master/figures/15_0.gif" width="400" height="400" /> 
+<img src="https://github.com/akshaykiranjose/Circle-Packing/blob/master/figures/13_0.gif" width="400" height="400" /> <img src="https://github.com/akshaykiranjose/Circle-Packing/blob/master/figures/15_0.gif" width="400" height="400" /> 
 
 (above) Packing 13 and 15 circles respectively.
 
