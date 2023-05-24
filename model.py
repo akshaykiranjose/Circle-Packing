@@ -68,13 +68,9 @@ class Autoencoder(Model):
             Input(shape=(self.main_dim)),
             Dense(self.main_dim, activation= 'selu'),
             Dense(self.main_dim, activation = 'selu'),
-            Dense(self.main_dim//2, activation = 'selu'),
-            Dense(self.main_dim//4, activation = 'selu'),
             Dense(self.latent_dim, activation = 'tanh')#, kernel_regularizer=regularizers.L1L2(l1=1e-2, l2=1e-1))
         ])       
         self.decoder = tf.keras.Sequential([
-            Dense(self.main_dim//4, activation = 'relu'),
-            Dense(self.main_dim//2, activation = 'relu'),
             Dense(self.main_dim, activation = 'relu'),
             Dense(self.main_dim, activation = 'relu'),
             Dense(self.main_dim, activation='softmax')
