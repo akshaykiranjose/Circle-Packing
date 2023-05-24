@@ -11,7 +11,7 @@ Here are two different instances of packing 14 unit circles in a larger circle.\
 <img src="https://github.com/akshaykiranjose/Circle-Packing/blob/master/figures/14_0.gif" width="400" height="400" /> <img src="https://github.com/akshaykiranjose/Circle-Packing/blob/master/figures/14_1.gif" width="400" height="400" />
 
 
-Here is one failed attempt to pack 14 circles for the same values of ```r``` and ```R``` as above.\
+Here is one failed attempt to pack 14 circles for the same values of ```r``` and ```R``` as above. We restart the optimization in that case.\
 <img src="https://github.com/akshaykiranjose/Circle-Packing/blob/master/figures/14_f.gif" width="400" height="400" /> 
 
 Towards the end of training, a circle rattles around its final centre and converges.
