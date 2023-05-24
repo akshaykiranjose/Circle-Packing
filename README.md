@@ -12,7 +12,7 @@ Here are two different instances of packing 14 circles in a unit circle.\
 
 
 Here is one failed attempt to pack 14 circles for the same values of ```r``` and ```R``` as above.\
-<img src="https://github.com/akshaykiranjose/Circle-Packing/blob/master/figures/14_f.gif" width="400" height="400" />
+<img src="https://github.com/akshaykiranjose/Circle-Packing/blob/master/figures/14_f.gif" width="400" height="400" /> 
 
 Towards the end of training, the circles exhibit minor movement if and only if they don't have significant overlap with another circle.
 
