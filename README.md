@@ -7,7 +7,7 @@ of training goes more than 20,000.
 
 The values of ```r```: radius of smaller circle and ```R```: radius of the larger circle are chosen such that a packing arrangement without significant overlap can be found.
 
-Here are two different instances of packing 14 circles in a unit circle.\
+Here are two different instances of packing 14 unit circles in a larger circle.\
 <img src="https://github.com/akshaykiranjose/Circle-Packing/blob/master/figures/14_0.gif" width="400" height="400" /> <img src="https://github.com/akshaykiranjose/Circle-Packing/blob/master/figures/14_1.gif" width="400" height="400" />
 
 
