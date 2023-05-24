@@ -15,7 +15,7 @@ Input = tf.reshape(tf.tile(eye, [BATCHES, 1]) ,[-1, num_circles, num_circles]) #
 loss = CCE()
 optim = Adam(learning_rate = 0.0005)
 
-autoencoder = EncoderDecoder(num_circles, large_radius, small_radius)
+model = EncoderDecoder(num_circles, large_radius, small_radius)
 
 #training can be finished and satisfactory packing obtained way before 1000 epochs.
 #thus we split training with batches of size 200.
@@ -24,9 +24,9 @@ for epoch in tqdm(range(EPOCHS)):
     
     for inputs in Input:           
             with tf.GradientTape() as tape:
-                curr_loss = loss(autoencoder(inputs), inputs)
-                grads = tape.gradient(curr_loss, autoencoder.trainable_variables)
-            optim.apply_gradients(zip(grads, autoencoder.trainable_variables))
+                curr_loss = loss(model(inputs), inputs)
+                grads = tape.gradient(curr_loss, model.trainable_variables)
+            optim.apply_gradients(zip(grads, model.trainable_variables))
 
-centres = autoencoder.centres(eye)
+centres = model.centres(eye)
 plot_circles(centres, large_radius, small_radius)
